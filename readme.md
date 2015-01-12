@@ -1,48 +1,21 @@
-malihu custom scrollbar plugin
+
+Documentation
 ================================
 
-Highly customizable custom scrollbar jQuery plugin. Features include: 
+Same as original plugin with added extra options:
+    - stopPropagation: true/false (Default to true, if set to false then touch events will allow event bubbeling. Usefull when using horizontal scrollbar nested inside a vertical scrollbar and when a vertical touch gesture is performed on horizontal scrollbar event is propragated to vertical scrollbar allowing vertical scroll)
 
-* Vertical and/or horizontal scrollbar(s)  
-* Adjustable scrolling momentum 
-* Mouse-wheel, keyboard and touch support 
-* Ready-to-use themes and customization via CSS 
-* RTL direction support 
-* Option parameters for full control of scrollbar functionality 
-* Methods for triggering actions like scroll-to, update, destroy etc. 
-* User-defined callbacks 
-* Selectable/searchable content
+[Original plugin and documentation](https://github.com/malihu/malihu-custom-scrollbar-plugin) 
 
-#### Installation
-
-Bower: `bower install malihu-custom-scrollbar-plugin` 
-
-npm: `npm install malihu-custom-scrollbar-plugin` 
-
-#### Usage 
-
-`$(selector).mCustomScrollbar();` 
-
-#### For more information 
-
-* [Plugin homepage and documentation](http://manos.malihu.gr/jquery-custom-content-scroller) 
 
 Requirements
 -------------------------
 
 jQuery version **1.6.0** or higher
 
-Browser compatibility
+Disclaimer
 -------------------------
-
-* Internet Explorer 8+ 
-* Firefox 
-* Chrome 
-* Opera 
-* Safari  
-* iOS 
-* Android 
-* Windows Phone
+This is a fork of original plugin (https://github.com/malihu/malihu-custom-scrollbar-plugin).
 
 License 
 -------------------------
@@ -50,8 +23,3 @@ License
 MIT License (MIT)
 
 http://opensource.org/licenses/MIT
-
-Donate 
--------------------------
-
-https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UYJ5G65M6ZA28
